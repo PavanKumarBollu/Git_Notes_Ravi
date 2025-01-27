@@ -1,2 +1,123 @@
 Git Commands
 ============
+
+1. Setting the User Name 
+
+	git config --global user.name "username"
+	EX: git config --global user.name "pavan"
+
+2.setting the user email 
+	
+	git config --global user.email "useremail"
+	EX: git config --global user.email "mailto:bollupavankumar12@gmail.com"
+
+3. To Check the user Name 
+
+	git config user.name
+
+4. To check the user email 
+	
+	git config user.email
+
+5. to list all the properties with values 
+
+	git config --list
+
+6. to chenge the default text editor
+
+	git config --global.editor "notepad"
+
+7. to initialse the git repository.
+	
+	git init
+
+8. to add the sigle file to the stagining area
+	
+	git add filename.extentions
+	EX: git init help.txt
+
+9. to add multiple file to the staging area
+
+	git add filename.extention filename.extention 
+	Ex git add help.txt home.txt 
+
+10. To Check the Status We Need to use the Following 
+
+	git status
+
+
+11. To Clear the Shell
+
+	CTRL + L
+
+12 to add the all files with same extension
+
+ 	git add *.java (will add the all .java files into the staging Area)
+
+
+13. to add the all file irrespective of the file names and extensions.
+
+	
+	git add . (will adds all your files with all the extenstions)
+
+14. to commint the changes from staging area to local repo with some massage
+
+	git commit -m "Commit Massage"
+
+15. to get the help from the perticuler command
+
+	git status -h (will displys all the possible ways the git status command)
+
+16. to add the files to the satging area and commit at same time
+
+	git commit -a -m "Commiting Directly"
+
+17. to remove the file from staging area but still keep the file in the working directory use the following
+
+	git rm --cached filename.extention 
+	EX: git rm --chached gitCommands.txt
+
+18. to create a file from the git bach use the following 
+
+	touch filename.extension (touch cann't create a directories)
+	EX: touch new.txt
+
+19. to edit the files form the git bach use the following 
+
+	nano filename.extension
+	EX: nano new.txt
+
+20. for ignoring the files automatically do the following
+	
+	create .gitignore file to store the names of the Files and directories that you wnated to avoid
+	EX: inside gitignore write (new.txt .classpath bin/) this will ignore the new.txt and .classpath and file inside the bin
+
+21. for checking the commit history use the following command
+
+	git log 
+	git log -2 (will displys the last two commits)
+
+22. to undo the last comming use the following
+
+	git commit --amend
+
+23. to change the last commit massage do the following 
+
+
+24. to switch between the branches 
+
+	git checkout -b branchName
+	Eg:
+	git checkout -b master --> switches to the master branch
+
+-->  git remote -v for checking the remote origin URL
+
+	
+
+
+
+
+
+
+
+	
