@@ -117,6 +117,12 @@ Git Commands
 
 --> Updated by Pavan Using Local Machine then Pushed To his Repo then Created A pull request after that Ravi has to verify and merge
 
+--> Git push origin branchName
+--> git switch -c NewBranchName
+--> git branch -d BranchName
+--> git pull
+--> git fetch
+--> 
 
 	
 
