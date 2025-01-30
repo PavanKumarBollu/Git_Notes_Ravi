@@ -117,7 +117,7 @@ Git Commands
 
 --> Updated by Pavan Using Local Machine then Pushed To his Repo then Created A pull request after that Ravi has to verify and merge
 
---->Ravi 
+
 	
 
 
