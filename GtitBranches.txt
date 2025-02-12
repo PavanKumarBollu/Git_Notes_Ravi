@@ -1,3 +1,6 @@
 GitBranches
 
 New Changes with Files
+
+to create branch we can use git branch 
+git checkout or git switch command 
